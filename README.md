@@ -30,7 +30,7 @@ python manage.py test
 - `GET /api/todos/{id}/` — получить задачу
 - `PATCH /api/todos/{id}/` — обновить задачу
 - `DELETE /api/todos/{id}/` — удалить задачу
-
+##
 - `GET /api/people/` — список пользователей
 - `POST /api/people/` — создать пользователя
 - `GET /api/people/{id}/` — получить пользователя
