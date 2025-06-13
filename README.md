@@ -8,6 +8,7 @@ git clone https://github.com/RynhAleh/todo_drf_app.git
 ```
 ## Установка и запуск
 ```bash
+cd todo_drf_app
 python -m venv .venv
 source .venv/bin/activate  # или .venv\Scripts\activate на Windows
 pip install -r requirements.txt
