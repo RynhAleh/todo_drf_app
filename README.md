@@ -2,6 +2,10 @@
 
 Это простое API-приложение для управления задачами с использованием Django REST Framework.
 
+#### Склонируйте депозиторий:
+```bash
+git clone https://github.com/RynhAleh/todo_drf_app.git
+```
 ## Установка и запуск
 ```bash
 python -m venv .venv
@@ -9,7 +13,7 @@ source .venv/bin/activate  # или .venv\Scripts\activate на Windows
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-```
+```bash
 
 ## Документация API
 Открыть в браузере: [http://127.0.0.1:8000/docs/](http://127.0.0.1:8000/docs/)
