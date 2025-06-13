@@ -38,7 +38,7 @@ class TodoAPITestCase(TestCase):
 class PeopleAPITestCase(TestCase):
     def setUp(self):
         self.client = APIClient()
-        self.people = People.objects.create(name="Тестовый чел")
+        self.people = People.objects.create(name="Тестовый пользователь")
 
     def test_get_people(self):
         response = self.client.get('/api/people/')
@@ -46,7 +46,7 @@ class PeopleAPITestCase(TestCase):
         self.assertEqual(len(response.data), 1)
 
     def test_create_people(self):
-        data = {"name": "Новый чел"}
+        data = {"name": "Новый пользователь"}
         response = self.client.post('/api/people/', data)
         self.assertEqual(response.status_code, 201)
 
