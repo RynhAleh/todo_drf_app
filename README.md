@@ -4,8 +4,8 @@
 
 ## Установка и запуск
 ```bash
-python -m venv venv
-source venv/bin/activate  # или venv\Scripts\activate на Windows
+python -m venv .venv
+source .venv/bin/activate  # или .venv\Scripts\activate на Windows
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
@@ -26,3 +26,8 @@ python manage.py test
 - `PATCH /api/todos/{id}/` — обновить задачу
 - `DELETE /api/todos/{id}/` — удалить задачу
 
+- `GET /api/people/` — список пользователей
+- `POST /api/people/` — создать пользователя
+- `GET /api/people/{id}/` — получить пользователя
+- `PATCH /api/people/{id}/` — обновить пользователя
+- `DELETE /api/people/{id}/` — удалить пользователя
