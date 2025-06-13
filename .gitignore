@@ -7,4 +7,4 @@ __pycache__/
 /.env
 /django.log
 /db.sqbpro
-/*.sqlite3
+/db.sqlite3
